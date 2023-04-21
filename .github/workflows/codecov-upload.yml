@@ -60,4 +60,3 @@ jobs:
           directory: build/gcov-reports
           fail_ci_if_error: false
           verbose: true
-          gcov: true
