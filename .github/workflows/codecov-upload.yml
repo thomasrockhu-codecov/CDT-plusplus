@@ -44,8 +44,6 @@ jobs:
       - name: Submit to codecov.io
         uses: codecov/codecov-action@v3
         with:
-          directory: build/gcov-reports
           fail_ci_if_error: false
           verbose: true
           gcov: true
-          gcov_executable: llvm-cov gcov
